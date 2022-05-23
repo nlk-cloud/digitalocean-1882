@@ -1,0 +1,2045 @@
+[
+    {
+        "id": "dab529d804bb98d3",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "91506cf802f2d349",
+        "type": "tab",
+        "label": "Download data",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0811c43bf2f0d889",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "165.232.191.36",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ba74d62bbcfb4c85",
+        "type": "ui_group",
+        "name": "Phase1",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d8596899.c56458",
+        "type": "ui_group",
+        "name": "Phase2",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "adcbe698363d02da",
+        "type": "ui_group",
+        "name": "Average",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7990dca130e16dce",
+        "type": "ui_group",
+        "name": "Total power",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e9a2c221a364b5ca",
+        "type": "ui_group",
+        "name": "Frequency",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "38f6a7672336ab66",
+        "type": "ui_group",
+        "name": "Phase3",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c982fbb8.1deb38",
+        "type": "ui_group",
+        "name": "hidden_group",
+        "tab": "7c447e96.4b96a",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7560e5e8.ee7dfc",
+        "type": "ui_tab",
+        "name": "Power-parameters",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3a15a9c9dbe9a80a",
+        "type": "ui_tab",
+        "name": "Temperature",
+        "icon": "wi-wu-sunny",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7c447e96.4b96a",
+        "type": "ui_tab",
+        "name": "Zooland Sys",
+        "icon": "home",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "aa6d06ceaeafbf9d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "cc6fb003cf40238f",
+        "type": "ui_group",
+        "name": "Temperature-data",
+        "tab": "45fd645bc6e37d5c",
+        "order": 1,
+        "disp": true,
+        "width": 15,
+        "collapse": false
+    },
+    {
+        "id": "6d8a6b53f15d1c82",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "165.232.191.36",
+        "port": "3306",
+        "db": "temp_readings",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "d44d4f44.3219e8",
+        "type": "ui_group",
+        "name": "Form",
+        "tab": "bbcb3926bfe26a69",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "45fd645bc6e37d5c",
+        "type": "ui_tab",
+        "name": "Data-table",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b46218b485aaf130",
+        "type": "ui_group",
+        "name": "Temp-display",
+        "tab": "3a15a9c9dbe9a80a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ae95301229406a0b",
+        "type": "ui_spacer",
+        "z": "dab529d804bb98d3",
+        "name": "spacer",
+        "group": "cc6fb003cf40238f",
+        "order": 2,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "25ccbf5d3847208d",
+        "type": "ui_spacer",
+        "z": "dab529d804bb98d3",
+        "name": "spacer",
+        "group": "cc6fb003cf40238f",
+        "order": 3,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "ac351f06f59f3e65",
+        "type": "ui_spacer",
+        "z": "dab529d804bb98d3",
+        "name": "spacer",
+        "group": "cc6fb003cf40238f",
+        "order": 4,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "02185988d2196798",
+        "type": "ui_spacer",
+        "z": "dab529d804bb98d3",
+        "name": "spacer",
+        "group": "cc6fb003cf40238f",
+        "order": 5,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "aee570eabd59f875",
+        "type": "ui_spacer",
+        "z": "dab529d804bb98d3",
+        "name": "spacer",
+        "group": "cc6fb003cf40238f",
+        "order": 7,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "dc9c92bdc6956134",
+        "type": "ui_spacer",
+        "z": "dab529d804bb98d3",
+        "name": "spacer",
+        "group": "cc6fb003cf40238f",
+        "order": 8,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "489e8c9a5a8bd783",
+        "type": "ui_spacer",
+        "z": "dab529d804bb98d3",
+        "name": "spacer",
+        "group": "cc6fb003cf40238f",
+        "order": 9,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "e0591dbd135f4284",
+        "type": "ui_spacer",
+        "z": "dab529d804bb98d3",
+        "name": "spacer",
+        "group": "cc6fb003cf40238f",
+        "order": 10,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "bbcb3926bfe26a69",
+        "type": "ui_tab",
+        "name": "Input",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "97c57c3c83817942",
+        "type": "ui_group",
+        "name": "From",
+        "tab": "bbcb3926bfe26a69",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "510ca8fb903bb2f6",
+        "type": "ui_group",
+        "name": "To",
+        "tab": "bbcb3926bfe26a69",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c97c54567022ea92",
+        "type": "ui_group",
+        "name": "Submit",
+        "tab": "bbcb3926bfe26a69",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "272e6b9596b93e42",
+        "type": "ui_group",
+        "name": "selected data",
+        "tab": "bbcb3926bfe26a69",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a1c7b238308f2135",
+        "type": "ui_group",
+        "name": "Download data in a file",
+        "tab": "bbcb3926bfe26a69",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1339389b68e5b849",
+        "type": "mqtt in",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "topic": "Selecem4m/Data/Json",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "0811c43bf2f0d889",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "69b27490cf84d643",
+                "b454e9277419a33c"
+            ]
+        ]
+    },
+    {
+        "id": "432e281063a68284",
+        "type": "debug",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "69b27490cf84d643",
+        "type": "json",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "c720be180913edb1",
+                "7aaf89dd94504afa",
+                "48581e52d104df96",
+                "a07038bc72321511",
+                "928e0495b43136d7",
+                "ec004a6ab2b41aa0",
+                "67d50eb0c0477364"
+            ]
+        ]
+    },
+    {
+        "id": "7aaf89dd94504afa",
+        "type": "debug",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.Phase1.Voltage1N",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "b454e9277419a33c",
+        "type": "debug",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c720be180913edb1",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "//payload=Number((msg.payload.Phase1.Voltage1N).toFixed(2));\npayload=msg.payload.Phase1.Voltage1N;\nmsg.payload=payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 200,
+        "wires": [
+            [
+                "a89d7fc47689188e",
+                "432e281063a68284",
+                "5a0bd9de74867517"
+            ]
+        ]
+    },
+    {
+        "id": "48581e52d104df96",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Phase2.PF2} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 400,
+        "wires": [
+            [
+                "519427f96af6f3d2"
+            ]
+        ]
+    },
+    {
+        "id": "a07038bc72321511",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Phase3.PF3} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 480,
+        "wires": [
+            [
+                "7c372d5bc636db23"
+            ]
+        ]
+    },
+    {
+        "id": "928e0495b43136d7",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Average.AVGVoltage_LN} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 560,
+        "wires": [
+            [
+                "07b0d6d64e32d1da"
+            ]
+        ]
+    },
+    {
+        "id": "ec004a6ab2b41aa0",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Total.Total_kVAr} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 620,
+        "wires": [
+            [
+                "a8ef6cd89822abf9"
+            ]
+        ]
+    },
+    {
+        "id": "67d50eb0c0477364",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Frequency.Freq} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 680,
+        "wires": [
+            [
+                "ec31b0059ced90fd"
+            ]
+        ]
+    },
+    {
+        "id": "d93fb74d35e2680d",
+        "type": "mqtt in",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "topic": "Dtempsensor/Data/Json",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "0811c43bf2f0d889",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 860,
+        "wires": [
+            [
+                "33adc9aad2ab7c88"
+            ]
+        ]
+    },
+    {
+        "id": "33adc9aad2ab7c88",
+        "type": "json",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 390,
+        "y": 860,
+        "wires": [
+            [
+                "12b81951b4521964",
+                "1c6170c38d39961c"
+            ]
+        ]
+    },
+    {
+        "id": "1c6170c38d39961c",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.temp.tempC} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 860,
+        "wires": [
+            [
+                "4008573c2481ac2b"
+            ]
+        ]
+    },
+    {
+        "id": "a89d7fc47689188e",
+        "type": "ui_gauge",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "ba74d62bbcfb4c85",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "compass",
+        "title": "Voltage-phase1-gauge",
+        "label": "Volts",
+        "format": "{{value | number:1}}",
+        "min": "200",
+        "max": "250",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 780,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "4008573c2481ac2b",
+        "type": "ui_gauge",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "b46218b485aaf130",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature-chandraLayout",
+        "label": "oC",
+        "format": "{{value|number:2}}",
+        "min": "15",
+        "max": "45",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 880,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "519427f96af6f3d2",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "d8596899.c56458",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "PF-phase2",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0.75",
+        "ymax": "1.25",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 690,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "07b0d6d64e32d1da",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "adcbe698363d02da",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Average voltage ( line to neutral)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "230",
+        "ymax": "240",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 730,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8ef6cd89822abf9",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "7990dca130e16dce",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Total kVAr",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "220",
+        "ymax": "240",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 660,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec31b0059ced90fd",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "e9a2c221a364b5ca",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Frequency",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "50",
+        "ymax": "50.5",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 670,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c372d5bc636db23",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "38f6a7672336ab66",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "PF - Phase3 ",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0.75",
+        "ymax": "1.25",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 710,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b97bc1c0.cb899",
+        "type": "ui_template",
+        "z": "dab529d804bb98d3",
+        "group": "c982fbb8.1deb38",
+        "name": "Clock Toolbar",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n\n$(function() {\n    if($('.md-toolbar-tools').length != 0){\n        loadClock();\n    }else setTimeout(loadClock, 500)\n});\n\nfunction loadClock(){\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    \n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n        var d = new Date();\n        p.text(d.toLocaleString());\n    }\n\n    if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n    }\n        \n    document.clockInterval = setInterval(upTime,1000);\n}\n\n</script>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "x": 700,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12b81951b4521964",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "Adding time stamp",
+        "func": "//var d = new Date();\nvar d = new Date(new Date().toLocaleString(\"en-US\", {timeZone: \"Asia/Kolkata\"}));\n/*var month=d.getMonth()+1;\nif ((month<10)\nmonth='0'+ month;\n//else\n//{month = d.getMonth();}\n\n\nvar date = {\n    \"year\":d.getFullYear(),\n    \"month\":month,\n    \"day\":d.getDate()\n    \n};\ncur_date=Object.values(date).join('-');\n\n\nvar time = {\n    \"hours\":d.getHours(),\n    \"min\":d.getMinutes(),\n    \"sec\":d.getSeconds()\n    \n};\ncur_time=Object.values(time).join('-');\n\n*/\n\nvar month = d.getMonth() + 1;\nvar day = d.getDate();\nmonth = month > 9 ? month : \"0\"+month;\nday = day > 9 ? day : \"0\"+day;\nvar cur_date =(d.getFullYear() +'-'+ month) +'-'+ day;\n\nvar hours = d.getHours();\nvar min = d.getMinutes();\nvar sec = d.getSeconds();\nhours = hours > 9 ? hours : \"0\"+sec;\nmin = min > 9 ? min : \"0\"+min;\nsec = sec > 9 ? sec : \"0\"+sec;\nvar cur_time =(hours+':'+min) +':'+sec;\nmsg.payload.time=cur_time;\nmsg.payload.date=cur_date;\n//payload = [cur_date, cur_time, msg.payload.temp.tempC];\n//msg.payload = payload;\n/*msg.payload ={\n     cur_date,\n     cur_time,\n    \"Water Level\" : msg.payload\n    \n  \n}*/\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 940,
+        "wires": [
+            [
+                "01d814d121069026",
+                "710911eb102b8efd"
+            ]
+        ]
+    },
+    {
+        "id": "01d814d121069026",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "Creating-filename",
+        "func": "var d = new Date();\n\nvar yyyy = d.getFullYear();\nvar mm = d.getMonth() < 9 ? \"0\"+ (d.getMonth()+1) : (d.getMonth()+1);\nvar dd = d.getDate() < 10 ? \"0\" + d.getDate() : d.getDate();\nvar hh = d.getHours() < 10 ? \"0\" + d.getHours() : d.getHours();\nvar mmm = d.getMinutes() < 10 ? \"0\" + d.getMinutes() : d.getMinutes();\nvar ss = d.getSeconds() < 10 ? \"0\" + d.getSeconds() : d.getSeconds();\n\nmsg.fname = \"tempC\" + yyyy + mm +\".csv\";\n\nmsg.filename = \"/root/.node-red/user2/logs/\"+msg.fname;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 940,
+        "wires": [
+            [
+                "d21c0793d2adb8d3"
+            ]
+        ]
+    },
+    {
+        "id": "d21c0793d2adb8d3",
+        "type": "csv",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "Date, Time, TempC",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 1030,
+        "y": 940,
+        "wires": [
+            [
+                "6c3ecc7def5c84c3"
+            ]
+        ]
+    },
+    {
+        "id": "6c3ecc7def5c84c3",
+        "type": "file",
+        "z": "dab529d804bb98d3",
+        "d": true,
+        "name": "",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1200,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a0bd9de74867517",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "ba74d62bbcfb4c85",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "voltage-phase1-chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 800,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c075d6ffb2a7c50f",
+        "type": "mysql",
+        "z": "dab529d804bb98d3",
+        "mydb": "6d8a6b53f15d1c82",
+        "name": "",
+        "x": 580,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69652af4affbff1e",
+        "type": "inject",
+        "z": "dab529d804bb98d3",
+        "name": "Create table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CREATE TABLE IF NOT EXISTS data (Id INT NOT NULL AUTO_INCREMENT, Date DATE , Time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, TEMPERATURE FLOAT NOT NULL, PRIMARY KEY (Id))",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 1060,
+        "wires": [
+            [
+                "c075d6ffb2a7c50f"
+            ]
+        ]
+    },
+    {
+        "id": "1cd442b005262005",
+        "type": "debug",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "4b1ff063fe3d5ec1",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "var newMsg = {\n \"topic\": \"INSERT INTO data (DATE,TIME,temperature) values(1,'sensor',20)\"\n};\n\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1fbb704655303524",
+        "type": "inject",
+        "z": "dab529d804bb98d3",
+        "name": "Insert hardcoded Data",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 1120,
+        "wires": [
+            [
+                "4b1ff063fe3d5ec1"
+            ]
+        ]
+    },
+    {
+        "id": "7414d662b52f69cc",
+        "type": "ui_template",
+        "z": "dab529d804bb98d3",
+        "group": "cc6fb003cf40238f",
+        "name": "Table",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "format": "<style>\n.table\n{\n    height:400px;\n    width:550px;\n    background:lightblue;\n    border:1px solid black;\n}\n.th,td\n{\n    border:1px solid black;\n}\n</style>\n<div class=\"table\">\n<table style=\"width:100%\">\n  <tr>\n      <th>Id</th>\n    <th>DATE</th> \n    <th>TIME</th>\n    <th>TEMPERATURE</th> \n  </tr>\n  <tr ng-repeat=\"x in msg.payload | limitTo:10\">\n     <td>{{msg.payload[$index]. Id}}</td> \n    <td>{{msg.payload[$index]. Date}}</td>\n    <td>{{msg.payload[$index].Time}}</td>\n    <td>{{msg.payload[$index].TEMPERATURE}}</td> \n  </tr>\n</table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 550,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fc59174810179b4b",
+        "type": "mysql",
+        "z": "dab529d804bb98d3",
+        "mydb": "6d8a6b53f15d1c82",
+        "name": "",
+        "x": 360,
+        "y": 1320,
+        "wires": [
+            [
+                "7414d662b52f69cc",
+                "d8400ff37f10aa34",
+                "6e781f544f9603d7"
+            ]
+        ]
+    },
+    {
+        "id": "03fc20a7c54a33b9",
+        "type": "inject",
+        "z": "dab529d804bb98d3",
+        "name": "Show table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT * FROM data ORDER BY Id DESC LIMIT 100 ",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 1320,
+        "wires": [
+            [
+                "fc59174810179b4b"
+            ]
+        ]
+    },
+    {
+        "id": "d8400ff37f10aa34",
+        "type": "debug",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "710911eb102b8efd",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "Insert temp data into database ",
+        "func": "/*var cdate=msg.payload[0];\nvar time=msg.payload[1];\nvar temp=msg.payload[2];*/\n\ncdate = msg.payload.date;\ntime= msg.payload.time;\ntemp = msg.payload.temp.tempC;\n\nvar newMsg = {\n \"topic\": \"INSERT INTO data (Date,Time,TEMPERATURE) values(\"+\"\\'\"+cdate+\"\\'\"+\",curtime(),\"+temp+\");\"\n};\n\nreturn newMsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1000,
+        "wires": [
+            [
+                "1cd442b005262005"
+            ]
+        ]
+    },
+    {
+        "id": "e535205992e8b767",
+        "type": "inject",
+        "z": "dab529d804bb98d3",
+        "name": "Delete data when time>0",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DELETE FROM data WHERE Time>=0",
+        "payload": "",
+        "payloadType": "date",
+        "x": 350,
+        "y": 1200,
+        "wires": [
+            [
+                "c075d6ffb2a7c50f"
+            ]
+        ]
+    },
+    {
+        "id": "b4c00512e968740a",
+        "type": "inject",
+        "z": "dab529d804bb98d3",
+        "name": "Delete if more than 10 rows",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DELETE FROM data WHERE id NOT IN (SELECT id FROM data ORDER BY id DESC LIMIT 10)",
+        "payload": "",
+        "payloadType": "date",
+        "x": 480,
+        "y": 1260,
+        "wires": [
+            [
+                "c075d6ffb2a7c50f"
+            ]
+        ]
+    },
+    {
+        "id": "406204cb91cab350",
+        "type": "inject",
+        "z": "dab529d804bb98d3",
+        "name": "Drop Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "drop table data",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 1160,
+        "wires": [
+            [
+                "c075d6ffb2a7c50f"
+            ]
+        ]
+    },
+    {
+        "id": "6e781f544f9603d7",
+        "type": "ui_table",
+        "z": "dab529d804bb98d3",
+        "d": true,
+        "group": "cc6fb003cf40238f",
+        "name": "display-table",
+        "order": 6,
+        "width": "0",
+        "height": "0",
+        "columns": [
+            {
+                "field": "payload[0].Id",
+                "title": "Id",
+                "width": "",
+                "align": "left",
+                "formatter": "traffic",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Date",
+                "title": "Date",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Time",
+                "title": "Time",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "TEMPERATURE",
+                "title": "Temperature",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 570,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "1301ff3b1a96638b",
+        "type": "debug",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3cae708010541133",
+        "type": "ui_date_picker",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "label": "From date",
+        "group": "97c57c3c83817942",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "topic": "From",
+        "topicType": "msg",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "25428c3881845ccb"
+            ]
+        ]
+    },
+    {
+        "id": "25428c3881845ccb",
+        "type": "moment",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Kolkata",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY/MM/DD",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Asia/Kolkata",
+        "x": 320,
+        "y": 120,
+        "wires": [
+            [
+                "abcc33e632ef1b71"
+            ]
+        ]
+    },
+    {
+        "id": "abcc33e632ef1b71",
+        "type": "change",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "fromdate",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 120,
+        "wires": [
+            [
+                "1301ff3b1a96638b"
+            ]
+        ]
+    },
+    {
+        "id": "5e1499bc1fb36184",
+        "type": "moment",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Kolkata",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY/MM/DD",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Asia/Kolkata",
+        "x": 320,
+        "y": 200,
+        "wires": [
+            [
+                "817b8cbfd1426791"
+            ]
+        ]
+    },
+    {
+        "id": "96f822bf5b3463ae",
+        "type": "ui_date_picker",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "label": "To date",
+        "group": "510ca8fb903bb2f6",
+        "order": 0,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "topic": "Todate",
+        "topicType": "msg",
+        "x": 100,
+        "y": 200,
+        "wires": [
+            [
+                "5e1499bc1fb36184"
+            ]
+        ]
+    },
+    {
+        "id": "817b8cbfd1426791",
+        "type": "change",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "todate",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 200,
+        "wires": [
+            [
+                "430f07b63633bb79"
+            ]
+        ]
+    },
+    {
+        "id": "430f07b63633bb79",
+        "type": "debug",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f7dbc3187316d6c3",
+        "type": "ui_button",
+        "z": "91506cf802f2d349",
+        "d": true,
+        "name": "",
+        "group": "c97c54567022ea92",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "Submit",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 60,
+        "y": 480,
+        "wires": [
+            [
+                "f111bf0bd75b9fef"
+            ]
+        ]
+    },
+    {
+        "id": "ebaf512954653b41",
+        "type": "function",
+        "z": "91506cf802f2d349",
+        "name": "Select data from database",
+        "func": "//var userin=msg.payload;\n//if ( userin=='start')\n{ var fromDate = flow.get(\"fromdate\");\n  var toDate = flow.get(\"todate\");\n  msg.topic=\"SELECT Id, Date, Time, TEMPERATURE FROM data WHERE Date BETWEEN '\"+fromDate+\"' AND '\"+toDate+\"' order by Date ;\" ;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 300,
+        "wires": [
+            [
+                "358daba033444566"
+            ]
+        ]
+    },
+    {
+        "id": "bc6bfef1442c9b16",
+        "type": "debug",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "358daba033444566",
+        "type": "mysql",
+        "z": "91506cf802f2d349",
+        "mydb": "6d8a6b53f15d1c82",
+        "name": "",
+        "x": 580,
+        "y": 300,
+        "wires": [
+            [
+                "160276898e6c2987",
+                "6e1433817ba7d2a6"
+            ]
+        ]
+    },
+    {
+        "id": "53cb9ebf51c97880",
+        "type": "ui_table",
+        "z": "91506cf802f2d349",
+        "group": "272e6b9596b93e42",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "columns": [
+            {
+                "field": "Id",
+                "title": "Id",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Date",
+                "title": "Date",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Time",
+                "title": "Time",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "TEMPERATURE",
+                "title": "Temperature",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 790,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "717ac73cce59a5ea",
+        "type": "debug",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "160276898e6c2987",
+        "type": "csv",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "once",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "Id, Date, Time, TEMPERATURE",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 830,
+        "y": 320,
+        "wires": [
+            [
+                "1fc201b36968035f",
+                "bc6bfef1442c9b16"
+            ]
+        ]
+    },
+    {
+        "id": "bf4a769c0da0a233",
+        "type": "ui_template",
+        "z": "91506cf802f2d349",
+        "group": "a1c7b238308f2135",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "\n<div >\n    <a href=\"/data\">download data </a>\n</div>\n\n\n\n\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 440,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f111bf0bd75b9fef",
+        "type": "http request",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://165.232.191.36:1882/data",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 210,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d31b796feeb8a863",
+        "type": "ui_form",
+        "z": "91506cf802f2d349",
+        "d": true,
+        "name": "",
+        "label": "Date inputs from Form",
+        "group": "d44d4f44.3219e8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "From Date",
+                "value": "fromdate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "To Date",
+                "value": "todate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "fromdate": "",
+            "todate": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 280,
+        "y": 540,
+        "wires": [
+            [
+                "370583efb844e43e"
+            ]
+        ]
+    },
+    {
+        "id": "370583efb844e43e",
+        "type": "debug",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b49749eb9dc315eb",
+        "type": "http in",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "url": "/data",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 80,
+        "y": 300,
+        "wires": [
+            [
+                "ebaf512954653b41"
+            ]
+        ]
+    },
+    {
+        "id": "3a91d87801e3e729",
+        "type": "http response",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1250,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f19ee1dee90bff48",
+        "type": "pdfmake",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "outputType": "base64",
+        "inputProperty": "payload",
+        "options": "{}",
+        "outputProperty": "payload",
+        "x": 1000,
+        "y": 500,
+        "wires": [
+            [
+                "717ac73cce59a5ea"
+            ]
+        ]
+    },
+    {
+        "id": "55956abfb80a15a3",
+        "type": "file",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 980,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d1c81a2dd0d5296",
+        "type": "function",
+        "z": "91506cf802f2d349",
+        "name": "Creating-filename",
+        "func": "var d = new Date();\n\nvar yyyy = d.getFullYear();\nvar mm = d.getMonth() < 9 ? \"0\"+ (d.getMonth()+1) : (d.getMonth()+1);\nvar dd = d.getDate() < 10 ? \"0\" + d.getDate() : d.getDate();\nvar hh = d.getHours() < 10 ? \"0\" + d.getHours() : d.getHours();\nvar mmm = d.getMinutes() < 10 ? \"0\" + d.getMinutes() : d.getMinutes();\nvar ss = d.getSeconds() < 10 ? \"0\" + d.getSeconds() : d.getSeconds();\n\nmsg.fname = \"tempC\" + yyyy + mm +\".csv\";\n\nmsg.filename = \"/root/.node-red/user2/logs/\"+msg.fname;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 420,
+        "wires": [
+            [
+                "55956abfb80a15a3"
+            ]
+        ]
+    },
+    {
+        "id": "cd328441664ad2f4",
+        "type": "json",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 610,
+        "y": 400,
+        "wires": [
+            [
+                "8d1c81a2dd0d5296"
+            ]
+        ]
+    },
+    {
+        "id": "1fc201b36968035f",
+        "type": "function",
+        "z": "91506cf802f2d349",
+        "name": "Set headers",
+        "func": "msg.headers = {}\nmsg.headers[\"Content-type\"] = \"text/csv\";\nmsg.headers[\"Content-Disposition\"] = \"attachment; filename=data.csv\";\nmsg.headers[\"Pragma\"] = \"no-cache\";\nmsg.headers[\"Expires\"] = \"0\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 320,
+        "wires": [
+            [
+                "3a91d87801e3e729"
+            ]
+        ]
+    },
+    {
+        "id": "6e1433817ba7d2a6",
+        "type": "debug",
+        "z": "91506cf802f2d349",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 240,
+        "wires": []
+    }
+]
